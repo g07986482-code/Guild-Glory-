@@ -1,0 +1,215 @@
+[20:07:17.362] Tcp Connected => master_hy6m
+[20:07:17.389] Tcp Connected => master_veyf
+[20:07:17.455] Tcp Connected => master_s37l
+[20:07:19.369] Tcp Connected => master_5v9z
+[20:07:35.863] [M] UDP connected remote=103.219.200.65:10016
+[20:07:35.878] [S1] UDP connected remote=103.219.200.65:10016
+[20:07:35.894] [S2] UDP connected remote=103.219.200.65:10016
+[20:07:35.907] [S3] UDP connected remote=103.219.200.65:10016
+[20:07:35.957] [M] -> PREPARE+POST sent
+[20:07:35.965] [S1] -> PREPARE+POST sent
+[20:07:35.978] [S2] -> PREPARE+POST sent
+[20:07:36.005] [S3] -> PREPARE+POST sent
+[20:07:36.747] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[20:07:37.023] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[20:07:37.047] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[20:07:37.071] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[20:07:37.574] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[20:07:37.579] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[20:07:37.604] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[20:07:37.875] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[20:17:35.912] [S3] UDP closed reason=ended
+[20:17:35.916] [S2] UDP closed reason=ended
+[20:17:35.919] [M] UDP closed reason=ended
+[20:17:35.920] [S1] UDP closed reason=ended
+[20:35:55.610] Tcp Connected => MasteR_wv0s
+[20:35:55.624] Tcp Connected => MasteR_e8fa
+[20:35:55.633] Tcp Connected => MasteR_dq89
+[20:35:57.587] Tcp Connected => MasteR_lkyv
+[20:36:10.559] [M] UDP connected remote=103.219.200.110:10017
+[20:36:10.574] [S1] UDP connected remote=103.219.200.110:10017
+[20:36:10.586] [S2] UDP connected remote=103.219.200.110:10017
+[20:36:10.596] [S3] UDP connected remote=103.219.200.110:10017
+[20:36:10.629] [M] -> PREPARE+POST sent
+[20:36:10.640] [S1] -> PREPARE+POST sent
+[20:36:10.645] [S2] -> PREPARE+POST sent
+[20:36:10.667] [S3] -> PREPARE+POST sent
+[20:36:11.303] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[20:36:11.608] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[20:36:11.618] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[20:36:11.640] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[20:36:12.151] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[20:36:12.160] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[20:36:12.173] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:15.366] Tcp Connected => MasteR_mmdl
+[23:02:15.377] Tcp Connected => MasteR_bqw0
+[23:02:15.389] Tcp Connected => MasteR_5bap
+[23:02:17.350] Tcp Connected => MasteR_xfs0
+[23:02:38.954] [M] UDP connected remote=103.219.202.139:10017
+[23:02:38.970] [S1] UDP connected remote=103.219.202.139:10017
+[23:02:38.985] [S2] UDP connected remote=103.219.202.139:10017
+[23:02:39.000] [S3] UDP connected remote=103.219.202.139:10017
+[23:02:39.043] [M] -> PREPARE+POST sent
+[23:02:39.080] [S2] -> PREPARE+POST sent
+[23:02:39.086] [S1] -> PREPARE+POST sent
+[23:02:39.097] [S3] -> PREPARE+POST sent
+[23:02:39.847] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:40.520] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:40.604] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:40.630] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:41.137] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:41.204] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:41.308] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:02:41.442] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:12:39.001] [M] UDP closed reason=ended
+[23:12:39.009] [S1] UDP closed reason=ended
+[23:12:39.012] [S2] UDP closed reason=ended
+[23:12:39.016] [S3] UDP closed reason=ended
+[23:14:50.865] Tcp Connected => MasteR_mmdl
+[23:14:50.875] Tcp Connected => MasteR_bqw0
+[23:14:50.880] Tcp Connected => MasteR_5bap
+[23:14:52.846] Tcp Connected => MasteR_xfs0
+[23:15:13.891] [M] UDP connected remote=103.219.200.237:10015
+[23:15:13.901] [S1] UDP connected remote=103.219.200.237:10015
+[23:15:13.909] [S2] UDP connected remote=103.219.200.237:10015
+[23:15:13.920] [S3] UDP connected remote=103.219.200.237:10015
+[23:15:13.970] [M] -> PREPARE+POST sent
+[23:15:14.032] [S3] -> PREPARE+POST sent
+[23:15:14.039] [S2] -> PREPARE+POST sent
+[23:15:14.044] [S1] -> PREPARE+POST sent
+[23:15:14.335] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:15:14.874] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:15:15.244] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:15:15.325] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:15:15.350] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:15:15.709] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:15:15.817] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:21:25.527] [M]   [END] MATCH_END received
+[23:21:25.539] [M] UDP closed reason=ended
+[23:21:25.581] [S2]   [END] MATCH_END received
+[23:21:25.586] [S2] UDP closed reason=ended
+[23:21:25.604] [S3]   [END] MATCH_END received
+[23:21:25.608] [S3] UDP closed reason=ended
+[23:22:49.873] [S1] UDP closed reason=ended
+[23:25:00.155] Tcp Connected => MasteR_mmdl
+[23:25:00.161] Tcp Connected => MasteR_bqw0
+[23:25:00.171] Tcp Connected => MasteR_5bap
+[23:25:02.148] Tcp Connected => MasteR_xfs0
+[23:25:24.249] [M] UDP connected remote=103.219.201.78:10017
+[23:25:24.260] [S1] UDP connected remote=103.219.201.78:10017
+[23:25:24.269] [S2] UDP connected remote=103.219.201.78:10017
+[23:25:24.278] [S3] UDP connected remote=103.219.201.78:10017
+[23:25:24.351] [M] -> PREPARE+POST sent
+[23:25:24.370] [S1] -> PREPARE+POST sent
+[23:25:24.376] [S2] -> PREPARE+POST sent
+[23:25:24.399] [S3] -> PREPARE+POST sent
+[23:25:25.970] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:26.459] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:26.482] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:26.513] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:27.394] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:27.690] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:27.778] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:27.898] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:25:27.957] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:35:24.302] [S2] UDP closed reason=ended
+[23:35:24.308] [S1] UDP closed reason=ended
+[23:35:24.311] [M] UDP closed reason=ended
+[23:35:24.315] [S3] UDP closed reason=ended
+[23:37:34.033] Tcp Connected => MasteR_bqw0
+[23:37:34.040] Tcp Connected => MasteR_5bap
+[23:37:34.046] Tcp Connected => MasteR_mmdl
+[23:37:36.022] Tcp Connected => MasteR_xfs0
+[23:37:59.066] [M] UDP connected remote=103.219.202.219:10016
+[23:37:59.092] [S1] UDP connected remote=103.219.202.219:10016
+[23:37:59.113] [S2] UDP connected remote=103.219.202.219:10016
+[23:37:59.142] [S3] UDP connected remote=103.219.202.219:10016
+[23:37:59.174] [S1] -> PREPARE+POST sent
+[23:37:59.181] [M] -> PREPARE+POST sent
+[23:37:59.214] [S2] -> PREPARE+POST sent
+[23:37:59.249] [S3] -> PREPARE+POST sent
+[23:37:59.775] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:38:00.084] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:38:00.248] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:38:00.307] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:38:00.592] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:38:00.802] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:38:00.876] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:47:59.133] [M] UDP closed reason=ended
+[23:47:59.141] [S1] UDP closed reason=ended
+[23:47:59.148] [S2] UDP closed reason=ended
+[23:47:59.152] [S3] UDP closed reason=ended
+[23:50:08.830] Tcp Connected => MasteR_mmdl
+[23:50:08.839] Tcp Connected => MasteR_5bap
+[23:50:08.846] Tcp Connected => MasteR_bqw0
+[23:50:10.821] Tcp Connected => MasteR_xfs0
+[23:50:19.321] [M] UDP connected remote=103.219.203.50:10015
+[23:50:19.332] [S1] UDP connected remote=103.219.203.50:10015
+[23:50:19.343] [S2] UDP connected remote=103.219.203.50:10015
+[23:50:19.353] [S3] UDP connected remote=103.219.203.50:10015
+[23:50:19.423] [M] -> PREPARE+POST sent
+[23:50:19.453] [S2] -> PREPARE+POST sent
+[23:50:19.462] [S1] -> PREPARE+POST sent
+[23:50:19.468] [S3] -> PREPARE+POST sent
+[23:50:19.798] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:50:20.467] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:50:20.758] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:50:20.855] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:50:21.275] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:50:21.390] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:58:38.309] Tcp Connected => MasteR_mmdl
+[23:58:38.333] Tcp Connected => MasteR_bqw0
+[23:58:38.342] Tcp Connected => MasteR_5bap
+[23:58:40.298] Tcp Connected => MasteR_xfs0
+[23:59:04.084] [M] UDP connected remote=103.123.54.215:10017
+[23:59:04.111] [S1] UDP connected remote=103.123.54.215:10017
+[23:59:04.124] [S2] UDP connected remote=103.123.54.215:10017
+[23:59:04.138] [S3] UDP connected remote=103.123.54.215:10017
+[23:59:04.165] [M] -> PREPARE+POST sent
+[23:59:04.192] [S2] -> PREPARE+POST sent
+[23:59:04.211] [S1] -> PREPARE+POST sent
+[23:59:04.221] [S3] -> PREPARE+POST sent
+[23:59:05.076] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[23:59:05.485] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:59:05.496] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:59:05.528] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:59:06.255] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[23:59:06.292] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[23:59:06.343] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[23:59:06.415] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[00:09:04.140] [M] UDP closed reason=ended
+[00:09:04.151] [S1] UDP closed reason=ended
+[00:09:04.156] [S2] UDP closed reason=ended
+[00:09:04.159] [S3] UDP closed reason=ended
+[00:11:13.878] Tcp Connected => MasteR_mmdl
+[00:11:13.890] Tcp Connected => MasteR_bqw0
+[00:11:13.896] Tcp Connected => MasteR_5bap
+[00:11:15.887] Tcp Connected => MasteR_xfs0
+[00:11:38.940] [M] UDP connected remote=103.123.54.70:10018
+[00:11:38.953] [S1] UDP connected remote=103.123.54.70:10018
+[00:11:38.966] [S2] UDP connected remote=103.123.54.70:10018
+[00:11:38.978] [S3] UDP connected remote=103.123.54.70:10018
+[00:11:39.009] [M] -> PREPARE+POST sent
+[00:11:39.032] [S1] -> PREPARE+POST sent
+[00:11:39.042] [S3] -> PREPARE+POST sent
+[00:11:39.048] [S2] -> PREPARE+POST sent
+[00:11:39.766] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[00:11:40.106] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[00:11:40.130] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[00:11:40.135] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[00:11:40.865] [S3]   [OK] JOIN_MATCH_FINISHED - in game
+[00:11:40.887] [S1]   [OK] JOIN_MATCH_FINISHED - in game
+[00:11:40.915] [S2]   [OK] JOIN_MATCH_FINISHED - in game
+[00:11:41.187] [M]   [OK] JOIN_MATCH_FINISHED - in game
+[00:18:52.369] [S1] UDP closed reason=ended
+[00:21:38.980] [M] UDP closed reason=ended
+[00:21:38.985] [S2] UDP closed reason=ended
+[00:21:38.988] [S3] UDP closed reason=ended
+[00:23:48.464] Tcp Connected => MasteR_mmdl
+[00:23:48.478] Tcp Connected => MasteR_bqw0
+[00:23:48.485] Tcp Connected => MasteR_5bap
+[00:23:50.452] Tcp Connected => MasteR_xfs0
+[00:28:59.957] Tcp Connected => MasteR_5bap
+[00:28:59.970] Tcp Connected => MasteR_bqw0
+[00:28:59.976] Tcp Connected => MasteR_mmdl
+[00:29:01.957] Tcp Connected => MasteR_xfs0
