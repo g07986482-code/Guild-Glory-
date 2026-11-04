@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05060f">
+<title>Master Glory | Control Panel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@500;700;900&family=Cinzel:wght@600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-logo">M</div>
+  <div class="loader-text">MASTER GLORY</div>
+  <div class="loader-bar"></div>
+</div>
+
+<div class="bg"></div>
+
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="logo">
+      <div class="logo-mark seal" data-logo="M"></div>
+      <div class="logo-text-wrap">
+        <h1 class="brand-title">MASTER</h1>
+        <div class="brand-sub">OFFICIAL SYSTEM</div>
+        <div class="logo-tag"><i class="fa-solid fa-circle"></i> GUILD GLORY ENGINE</div>
+      </div>
+      <div class="logo-badge">PRO</div>
+    </div>
+
+    <nav class="nav">
+      <button class="nav-btn on" data-view="dash" data-title="Dashboard" data-sub="Real-time analytics">
+        <i class="fa-solid fa-gauge-high"></i>Dashboard
+      </button>
+      <button class="nav-btn" data-view="teams" data-title="Teams" data-sub="Manage your teams">
+        <i class="fa-solid fa-user-group"></i>Teams
+        <span class="badge-n" id="nav-team-count">0</span>
+      </button>
+      <button class="nav-btn" data-view="term" data-title="Terminal" data-sub="Live execution logs">
+        <i class="fa-solid fa-terminal"></i>Terminal
+      </button>
+      <button class="nav-btn" data-view="settings" data-title="Settings" data-sub="System configuration">
+        <i class="fa-solid fa-gear"></i>Settings
+      </button>
+    </nav>
+
+    <div class="side-bottom">
+      <div class="status-pill" id="statusPill">
+        <span class="status-dot"></span>
+        <span id="statusText">ONLINE</span>
+      </div>
+      <div class="themes">
+        <div class="tdot titanium on" data-theme="titanium" title="Titanium"></div>
+        <div class="tdot cyber" data-theme="cyber" title="Cyber"></div>
+        <div class="tdot gold" data-theme="gold" title="Gold"></div>
+        <div class="tdot crimson" data-theme="crimson" title="Crimson"></div>
+        <div class="tdot emerald" data-theme="emerald" title="Emerald"></div>
+        <div class="tdot" data-theme="crystal" title="Crystal (White)" style="background:linear-gradient(135deg,#ffffff,#3b82f6);color:#3b82f6;border:2px solid rgba(0,0,0,.15)"></div>
+      </div>
+    </div>
+  </aside>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <div class="main">
+    <div class="mobile-top">
+      <button class="burger" id="burger"><i class="fa-solid fa-bars"></i></button>
+      <div class="mobile-brand"><span>MASTER</span><small>GUILD GLORY</small></div>
+    </div>
+
+    <div class="topbar">
+      <div class="topbar-left">
+        <h2 id="pageTitle">Dashboard</h2>
+        <div class="sub">
+          <span class="sync-dot" id="syncDot"></span>
+          <span id="pageSub">Real-time analytics</span>
+          • <span id="syncTime">Syncing...</span>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="icon-btn" id="themeBtn" title="Toggle Theme"><i class="fa-solid fa-moon"></i></button>
+        <button class="icon-btn" id="refreshBtn" title="Refresh"><i class="fa-solid fa-rotate"></i></button>
+        <button class="btn pri" id="addBtn"><i class="fa-solid fa-plus"></i>Add</button>
+        <button class="icon-btn" id="stopBtn" title="Stop All"><i class="fa-solid fa-stop"></i></button>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <!-- DASHBOARD -->
+      <div class="view on" id="v-dash">
+        <div class="welcome">
+          <div class="welcome-inner">
+            <div class="welcome-icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="welcome-text">
+              <h3>WELCOME TO MASTER GLORY</h3>
+              <p><span class="brand-inline">OFFICIAL GUILD GLORY ENGINE</span> · Automated 4-member team matchmaking with real-time analytics and complete control.</p>
+            </div>
+            <div class="welcome-stats">
+              <div class="welcome-stat"><div class="v" id="w-online">0</div><div class="l">Online</div></div>
+              <div class="welcome-stat"><div class="v" id="w-ingame">0</div><div class="l">In-Game</div></div>
+              <div class="welcome-stat"><div class="v" id="w-teams">0</div><div class="l">Teams</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="s-icon"><i class="fa-solid fa-clock"></i></div>
+            <div class="s-val" id="s-uptime">00:00:00</div>
+            <div class="s-lbl">System Uptime</div>
+            <div class="s-foot">Since boot</div>
+          </div>
+          <div class="stat">
+            <div class="s-icon"><i class="fa-solid fa-user-group"></i></div>
+            <div class="s-val" id="s-teams">0</div>
+            <div class="s-lbl">Total Teams</div>
+            <div class="s-foot" id="s-teams-foot">0 running</div>
+          </div>
+          <div class="stat">
+            <div class="s-icon"><i class="fa-solid fa-signal"></i></div>
+            <div class="s-val" id="s-online">0</div>
+            <div class="s-lbl">Online</div>
+            <div class="s-foot" id="s-online-foot">0%</div>
+          </div>
+          <div class="stat">
+            <div class="s-icon"><i class="fa-solid fa-crosshairs"></i></div>
+            <div class="s-val" id="s-ingame">0</div>
+            <div class="s-lbl">In-Game</div>
+            <div class="s-foot">Currently in match</div>
+          </div>
+          <div class="stat">
+            <div class="s-icon"><i class="fa-solid fa-play"></i></div>
+            <div class="s-val" id="s-started">0</div>
+            <div class="s-lbl">Match Started</div>
+            <div class="s-foot">Total launches</div>
+          </div>
+          <div class="stat">
+            <div class="s-icon"><i class="fa-solid fa-check-circle"></i></div>
+            <div class="s-val" id="s-completed">0</div>
+            <div class="s-lbl">Match Completed</div>
+            <div class="s-foot" id="s-completed-foot">0 failed</div>
+          </div>
+        </div>
+
+        <div class="section-title"><i class="fa-solid fa-list-check" style="color:var(--a3)"></i> Recent Activity</div>
+        <div class="panel" id="recentActivity">
+          <div class="empty-mini">Loading activity...</div>
+        </div>
+      </div>
+
+      <!-- TEAMS -->
+      <div class="view" id="v-teams">
+        <div class="controls">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="q" placeholder="Search team, member or UID..." autocomplete="off">
+          </div>
+          <button class="btn" id="refreshTeamsBtn"><i class="fa-solid fa-rotate"></i>Refresh</button>
+        </div>
+
+        <div id="teamsContainer" class="teams-grid">
+          <div class="empty"><i class="fa-solid fa-circle-notch fa-spin"></i><p>Loading teams...</p></div>
+        </div>
+      </div>
+
+      <!-- TERMINAL -->
+      <div class="view" id="v-term">
+        <div class="controls">
+          <div class="seg" id="logfilters">
+            <button class="on" data-lf="all">All</button>
+            <button data-lf="match">⚔ Match</button>
+            <button data-lf="clan">👥 Clan</button>
+            <button data-lf="gen">✨ Gen</button>
+            <button data-lf="error">❌ Errors</button>
+          </div>
+          <button class="btn ghost" id="autoBtn"><i class="fa-solid fa-arrow-down"></i>Auto-scroll</button>
+          <button class="btn" id="clearLogsBtn"><i class="fa-solid fa-trash"></i>Clear</button>
+        </div>
+        <div class="terminal">
+          <div class="term-head">
+            <div class="term-dots"><span></span><span></span><span></span></div>
+            <div class="term-title"><span class="tt-user">master</span><span class="tt-sep">@</span><span class="tt-host">glory</span><span class="tt-path">:~#</span></div>
+            <div class="spacer"></div>
+            <input class="term-search" id="logSearch" placeholder="search...">
+          </div>
+          <div class="term-body" id="termBody"></div>
+        </div>
+      </div>
+
+      <!-- SETTINGS -->
+      <div class="view" id="v-settings">
+        <div class="panel">
+          <div class="section-title" style="margin-top:0"><i class="fa-solid fa-sliders" style="color:var(--a3)"></i> General Settings</div>
+          <div class="settings-grid">
+            <div class="field">
+              <label>Default Region</label>
+              <select id="setRegion">
+                <option value="IND">IND</option><option value="ID">ID</option><option value="TH">TH</option>
+                <option value="ME">ME</option><option value="VN">VN</option><option value="BD">BD</option>
+                <option value="PK">PK</option><option value="TW">TW</option><option value="RU">RU</option>
+                <option value="NA">NA</option><option value="SAC">SAC</option><option value="BR">BR</option>
+                <option value="SG">SG</option><option value="US">US</option>
+              </select>
+              <small>Used for new matches & account generation</small>
+            </div>
+            <div class="field">
+              <label>Match Delay (Minutes)</label>
+              <input id="setDelay" type="number" min="1" max="60" value="2">
+              <small>Wait time between matches in auto-loop</small>
+            </div>
+            <div class="field">
+              <label>Auto-Loop Default</label>
+              <select id="setAutoLoop">
+                <option value="false">Disabled</option>
+                <option value="true">Enabled</option>
+              </select>
+              <small>Auto-restart matches after completion</small>
+            </div>
+            <div class="field">
+              <label>Team Size</label>
+              <input id="setTeamSize" type="number" min="2" max="4" value="4">
+              <small>Accounts per team (default: 4)</small>
+            </div>
+          </div>
+          <div class="settings-actions">
+            <button class="btn pri" id="saveSettingsBtn"><i class="fa-solid fa-check"></i>Save Settings</button>
+            <button class="btn ghost" id="resetSettingsBtn"><i class="fa-solid fa-rotate-left"></i>Reset to Default</button>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top:20px">
+          <div class="section-title" style="margin-top:0"><i class="fa-solid fa-database" style="color:var(--a3)"></i> Data Management</div>
+          <div class="settings-grid">
+            <div class="field"><label>Total Accounts</label><input id="infoAccounts" readonly value="0"></div>
+            <div class="field"><label>Total Teams</label><input id="infoTeams" readonly value="0"></div>
+            <div class="field"><label>Match History Entries</label><input id="infoHistory" readonly value="0"></div>
+          </div>
+          <div class="settings-actions">
+            <button class="btn danger" id="clearHistoryBtn"><i class="fa-solid fa-trash"></i>Clear History</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="addModal">
+  <div class="modal-box">
+    <h3>Add Account</h3>
+    <p>Single account with UID and password.</p>
+    <form id="addForm">
+      <div class="field"><label>UID</label><input id="inUid" placeholder="Enter UID" autocomplete="off" required></div>
+      <div class="field"><label>Password</label><input id="inPass" type="password" placeholder="••••••••" autocomplete="off" required></div>
+      <div class="modal-actions">
+        <button type="button" class="btn ghost" id="cancelAdd">Cancel</button>
+        <button type="submit" class="btn pri" id="addSubmitBtn"><i class="fa-solid fa-plus"></i>Add</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="modal" id="confirmModal">
+  <div class="modal-box" style="max-width:400px">
+    <h3 id="confirmTitle">Are you sure?</h3>
+    <p id="confirmMessage">This action cannot be undone.</p>
+    <div class="modal-actions">
+      <button type="button" class="btn ghost" id="confirmCancel">Cancel</button>
+      <button type="button" class="btn danger" id="confirmOk"><i class="fa-solid fa-check"></i>Confirm</button>
+    </div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
